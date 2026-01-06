@@ -14,3 +14,5 @@ EXPOSE 8080
 
 # start frankenphp
 CMD ["frankenphp", "run", "--config", "/etc/caddy/Caddyfile"]
+
+# force rebuild
